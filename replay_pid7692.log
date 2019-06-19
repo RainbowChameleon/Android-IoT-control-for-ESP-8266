@@ -1,0 +1,964 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 216 ciObject found
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/Class isInstance (Ljava/lang/Object;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class isArray ()Z 2049 1 256 0 -1
+ciMethod java/lang/Class getClassLoader ()Ljava/lang/ClassLoader; 2065 1 22087 0 -1
+ciMethod java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2073 1 46247 0 0
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 4097 1 512 0 -1
+ciMethod sun/misc/Unsafe getInt (Ljava/lang/Object;J)I 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getObject (Ljava/lang/Object;J)Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getBoolean (Ljava/lang/Object;J)Z 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getByte (Ljava/lang/Object;J)B 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getShort (Ljava/lang/Object;J)S 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getChar (Ljava/lang/Object;J)C 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getLong (Ljava/lang/Object;J)J 1897 1 237 0 -1
+ciMethod sun/misc/Unsafe getFloat (Ljava/lang/Object;J)F 0 0 1 0 -1
+ciMethod sun/misc/Unsafe getDouble (Ljava/lang/Object;J)D 0 0 1 0 -1
+ciMethod java/lang/Float floatToIntBits (F)I 0 0 1 0 -1
+ciMethod java/lang/Double doubleToLongBits (D)J 0 0 1 0 -1
+ciMethod java/io/ObjectStreamField isUnshared ()Z 1025 1 128 0 0
+ciMethod sun/reflect/Reflection getCallerClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Math min (II)I 2865 1 111969 0 -1
+ciMethod java/io/OutputStream write ([BII)V 57 1137 7 0 -1
+ciMethod sun/reflect/misc/ReflectUtil checkPackageAccess (Ljava/lang/Class;)V 2609 1 6113 0 -1
+ciMethod sun/reflect/misc/ReflectUtil needsPackageAccessCheck (Ljava/lang/ClassLoader;Ljava/lang/ClassLoader;)Z 0 0 1 0 -1
+ciMethodData java/lang/System getSecurityManager ()Ljava/lang/SecurityManager; 2 46247 orig 264 56 173 63 97 0 0 0 0 120 151 186 21 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 33 157 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/io/ObjectStreamClass checkDefaultSerialize ()V 2 5380 orig 264 56 173 63 97 0 0 0 0 168 141 220 26 0 0 0 0 168 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 17 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 96 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 12 0x10002 0x1402 0x80007 0x1402 0x50 0x0 0xf0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/io/ObjectStreamClass getPrimFieldValues (Ljava/lang/Object;[B)V 2 5382 orig 264 56 173 63 97 0 0 0 0 24 162 220 26 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 33 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 6 0x60005 0x0 0x1e4f0550 0x1404 0x0 0x0 oops 1 2 java/io/ObjectStreamClass$FieldReflector
+ciMethod org/gradle/internal/serialize/Encoder writeBytes ([BII)V 0 0 1 0 -1
+ciMethod org/gradle/internal/serialize/AbstractEncoder$EncoderStream write ([BII)V 2129 1 6457 0 448
+ciMethod org/gradle/internal/serialize/kryo/KryoBackedEncoder writeBytes ([BII)V 2273 1 5414 0 384
+ciMethod com/esotericsoftware/kryo/io/Output require (I)Z 777 1 5221 0 -1
+ciMethod com/esotericsoftware/kryo/io/Output writeBytes ([BII)V 2281 1 5414 0 0
+ciMethod java/io/Bits putBoolean ([BIZ)V 0 0 4 0 0
+ciMethod java/io/Bits putChar ([BIC)V 0 0 1 0 0
+ciMethod java/io/Bits putShort ([BIS)V 2081 1 5380 0 0
+ciMethod java/io/Bits putInt ([BII)V 1961 1 1291 0 192
+ciMethod java/io/Bits putFloat ([BIF)V 0 0 1 0 0
+ciMethod java/io/Bits putLong ([BIJ)V 2089 1 1285 0 288
+ciMethod java/io/Bits putDouble ([BID)V 0 0 1 0 0
+ciMethod java/io/ObjectStreamClass forClass ()Ljava/lang/Class; 2049 1 5402 0 128
+ciMethod java/io/ObjectStreamClass lookup (Ljava/lang/Class;Z)Ljava/io/ObjectStreamClass; 2065 1 5127 0 -1
+ciMethod java/io/ObjectStreamClass requireInitialized ()V 2049 1 37222 0 0
+ciMethod java/io/ObjectStreamClass checkDefaultSerialize ()V 2065 1 5379 0 0
+ciMethod java/io/ObjectStreamClass getFields (Z)[Ljava/io/ObjectStreamField; 2049 1 5433 0 0
+ciMethod java/io/ObjectStreamClass hasWriteReplaceMethod ()Z 1777 1 5020 0 -1
+ciMethod java/io/ObjectStreamClass invokeWriteReplace (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/io/ObjectStreamClass getPrimDataSize ()I 1025 1 128 0 0
+ciMethod java/io/ObjectStreamClass getNumObjFields ()I 1025 1 128 0 0
+ciMethod java/io/ObjectStreamClass getPrimFieldValues (Ljava/lang/Object;[B)V 2065 1 5379 0 0
+ciMethod java/io/ObjectStreamClass getObjFieldValues (Ljava/lang/Object;[Ljava/lang/Object;)V 2065 1 5379 0 0
+ciMethod java/io/ObjectOutputStream replaceObject (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeObject0 (Ljava/lang/Object;Z)V 2049 1 5805 0 -1
+ciMethod java/io/ObjectOutputStream writeNull ()V 745 1 2629 0 -1
+ciMethod java/io/ObjectOutputStream writeHandle (I)V 905 1 3432 0 -1
+ciMethod java/io/ObjectOutputStream writeClass (Ljava/lang/Class;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeClassDesc (Ljava/io/ObjectStreamClass;Z)V 2073 1 7502 0 -1
+ciMethod java/io/ObjectOutputStream writeString (Ljava/lang/String;Z)V 1497 1 3909 0 -1
+ciMethod java/io/ObjectOutputStream writeArray (Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeEnum (Ljava/lang/Enum;Ljava/io/ObjectStreamClass;Z)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream writeOrdinaryObject (Ljava/lang/Object;Ljava/io/ObjectStreamClass;Z)V 1313 1 3739 0 -1
+ciMethod java/io/ObjectOutputStream defaultWriteFields (Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V 2065 1929 5378 0 -1
+ciMethod java/io/ObjectStreamClass$FieldReflector getPrimFieldValues (Ljava/lang/Object;[B)V 2065 1265 5382 0 0
+ciMethod java/io/ObjectStreamClass$FieldReflector getObjFieldValues (Ljava/lang/Object;[Ljava/lang/Object;)V 2065 1929 5395 0 0
+ciMethod java/io/ObjectStreamClass$ExceptionInfo newInvalidClassException ()Ljava/io/InvalidClassException; 0 0 1 0 -1
+ciMethodData java/io/ObjectStreamClass requireInitialized ()V 2 37222 orig 264 56 173 63 97 0 0 0 0 176 139 220 26 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 49 131 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 6 0x40007 0x9066 0x30 0x0 0xd0002 0x0 oops 0
+ciMethodData java/io/ObjectOutputStream$BlockDataOutputStream drain ()V 2 5382 orig 264 56 173 63 97 0 0 0 0 88 143 212 31 0 0 0 0 200 1 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 0 0 0 241 163 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 16 0x40007 0xaf6 0x20 0x988 0xc0007 0xaf6 0x30 0x0 0x140002 0x0 0x240005 0x0 0x1a35ca70 0xaf6 0x0 0x0 oops 1 12 org/gradle/internal/serialize/AbstractEncoder$EncoderStream
+ciMethodData java/io/ObjectStreamClass forClass ()Ljava/lang/Class; 2 5402 orig 264 56 173 63 97 0 0 0 0 0 124 220 26 0 0 0 0 88 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 209 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 3 0 93 0 2 0 0 0 16 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 34 0x40007 0x141a 0x20 0x0 0xa0002 0x141a 0xd0002 0x141a 0x100007 0x141a 0xd0 0x0 0x130002 0x0 0x180005 0x0 0x0 0x0 0x0 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x220002 0x0 0x250007 0x0 0x30 0x0 0x2c0002 0x0 oops 0
+ciMethodData java/io/Bits putShort ([BIS)V 2 5380 orig 264 56 173 63 97 0 0 0 0 152 63 220 26 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/io/Bits putLong ([BIJ)V 2 1285 orig 264 56 173 63 97 0 0 0 0 216 65 220 26 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 1 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/io/ObjectStreamClass getFields (Z)[Ljava/io/ObjectStreamField; 2 5449 orig 264 56 173 63 97 0 0 0 0 128 143 220 26 0 0 0 0 232 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 73 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 152 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 19 0x10007 0x1449 0x98 0x0 0x80005 0x0 0x0 0x0 0x0 0x0 0xb0004 0x0 0x0 0x0 0x0 0x0 0xe0003 0x0 0x18 oops 0
+ciMethodData java/io/ObjectOutputStream writeObject0 (Ljava/lang/Object;Z)V 2 5821 orig 264 56 173 63 97 0 0 0 0 48 137 221 26 0 0 0 0 176 13 0 0 144 11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 173 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 150 0 2 0 0 0 88 12 0 0 255 255 255 255 5 0 5 0 0 0 0 0 data 395 0x50005 0x0 0x193f5660 0x15bd 0x0 0x0 0x180005 0x0 0x1e3a7ad0 0x15bd 0x0 0x0 0x1d0007 0x15bd 0x60 0x0 0x210002 0x0 0x330005 0x0 0x0 0x0 0x0 0x0 0x390007 0x0 0xb0 0x15bd 0x410005 0x0 0x1ccbe140 0x15bd 0x0 0x0 0x480007 0x12bd 0x60 0x300 0x4e0002 0x300 0x600005 0x0 0x193f5660 0x300 0x0 0x0 0x660004 0xffffffffffffed43 0x0 0x0 0x0 0x0 0x690007 0x12bd 0x90 0x0 0x6e0004 0x0 0x0 0x0 0x0 0x0 0x720002 0x0 0x840005 0x0 0x0 0x0 0x0 0x0 0x8a0004 0xffffffffffffed43 0x0 0x0 0x0 0x0 0x8d0007 0x12bd 0x90 0x0 0x920004 0x0 0x0 0x0 0x0 0x0 0x960002 0x0 0xa80005 0x0 0x0 0x0 0x0 0x0 0xb10005 0x7c0 0x2ac9b60 0x4c7 0x1e28c1e0 0x636 0xb90002 0x12bd 0xc00005 0x0 0x193f4de0 0x12bd 0x0 0x0 0xc30007 0x12bd 0xf0 0x0 0xc90005 0x0 0x0 0x0 0x0 0x0 0xce0007 0x0 0xa0 0x0 0xd20005 0x0 0x0 0x0 0x0 0x0 0xda0007 0x0 0x38 0x0 0xdd0003 0x0 0x30 0xe40003 0x0 0xfffffffffffffee8 0xeb0007 0x12bd 0xd0 0x0 0xf00005 0x0 0x0 0x0 0x0 0x0 0xf80007 0x0 0x80 0x0 0xfd0007 0x0 0x60 0x0 0x1020005 0x0 0x0 0x0 0x0 0x0 0x10a0002 0x0 0x1150007 0x12bd 0x2e0 0x0 0x11f0005 0x0 0x0 0x0 0x0 0x0 0x1230007 0x0 0x60 0x0 0x1270002 0x0 0x1390005 0x0 0x0 0x0 0x0 0x0 0x13f0007 0x0 0xb0 0x0 0x1470005 0x0 0x0 0x0 0x0 0x0 0x14e0007 0x0 0x60 0x0 0x1540002 0x0 0x1660005 0x0 0x0 0x0 0x0 0x0 0x16c0004 0x0 0x0 0x0 0x0 0x0 0x16f0007 0x0 0x90 0x0 0x1740004 0x0 0x0 0x0 0x0 0x0 0x1780002 0x0 0x18a0005 0x0 0x0 0x0 0x0 0x0 0x1900004 0x0 0x0 0x0 0x0 0x0 0x1930007 0x0 0x90 0x0 0x1980004 0x0 0x0 0x0 0x0 0x0 0x19c0002 0x0 0x1ae0005 0x0 0x0 0x0 0x0 0x0 0x1b40004 0xfffffffffffff20a 0x2ac9b60 0x4c7 0x0 0x0 0x1b70007 0xdf6 0x78 0x4c7 0x1bc0004 0x0 0x2ac9b60 0x4c7 0x0 0x0 0x1c00002 0x4c7 0x1c30003 0x4c7 0x350 0x1c80005 0x0 0x2ac9bf0 0xdf6 0x0 0x0 0x1cb0007 0xdf6 0x48 0x0 0x1d30002 0x0 0x1d60003 0x0 0x2d8 0x1da0004 0xfffffffffffff20a 0x0 0x0 0x0 0x0 0x1dd0007 0xdf6 0x78 0x0 0x1e20004 0x0 0x0 0x0 0x0 0x0 0x1e80002 0x0 0x1eb0003 0x0 0x230 0x1ef0004 0x0 0x1e28c1e0 0x636 0x1e28c290 0x18a 0x1f20007 0x0 0x48 0xdf6 0x1fa0002 0xdf6 0x1fd0003 0xdf6 0x1b8 0x2030007 0x0 0x160 0x0 0x20e0002 0x0 0x2130005 0x0 0x0 0x0 0x0 0x0 0x2160005 0x0 0x0 0x0 0x0 0x0 0x21b0005 0x0 0x0 0x0 0x0 0x0 0x2220005 0x0 0x0 0x0 0x0 0x0 0x2250005 0x0 0x0 0x0 0x0 0x0 0x2280005 0x0 0x0 0x0 0x0 0x0 0x22b0002 0x0 0x2350005 0x0 0x0 0x0 0x0 0x0 0x2380002 0x0 0x24b0005 0x0 0x193f5660 0x12bd 0x0 0x0 0x24f0003 0x12bd 0x48 0x2630005 0x0 0x0 0x0 0x0 0x0 oops 13 2 java/io/ObjectOutputStream$BlockDataOutputStream 8 java/io/ObjectOutputStream$ReplaceTable 30 java/io/ObjectOutputStream$HandleTable 42 java/io/ObjectOutputStream$BlockDataOutputStream 96 java/lang/String 98 org/gradle/internal/operations/OperationIdentifier 104 java/io/ObjectStreamClass 258 java/lang/String 268 java/lang/String 279 java/lang/Class 315 org/gradle/internal/operations/OperationIdentifier 317 org/gradle/tooling/internal/provider/events/DefaultSuccessResult 382 java/io/ObjectOutputStream$BlockDataOutputStream
+ciMethodData org/gradle/internal/serialize/AbstractEncoder$EncoderStream write ([BII)V 2 6457 orig 264 56 173 63 97 0 0 0 0 224 106 211 26 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 0 0 121 193 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 6 0x70005 0x0 0x1a361b30 0x182f 0x0 0x0 oops 1 2 org/gradle/internal/serialize/kryo/KryoBackedEncoder
+ciMethodData org/gradle/internal/serialize/kryo/KryoBackedEncoder writeBytes ([BII)V 2 5414 orig 264 56 173 63 97 0 0 0 0 24 223 212 26 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 1 0 0 81 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 6 0x70005 0x0 0x1a362950 0x140a 0x0 0x0 oops 1 2 com/esotericsoftware/kryo/io/Output
+ciMethodData com/esotericsoftware/kryo/io/Output writeBytes ([BII)V 2 5414 orig 264 56 173 63 97 0 0 0 0 232 53 218 26 0 0 0 0 8 2 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 1 0 0 73 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 16 0 2 0 0 0 168 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 21 0x10007 0x1409 0x30 0x0 0xa0002 0x0 0x180002 0x1409 0x290002 0x1409 0x3d0007 0x0 0x20 0x1409 0x4b0002 0x0 0x530002 0x0 0x570003 0x0 0xffffffffffffffb0 oops 0
+ciMethodData java/io/ObjectOutputStream defaultWriteFields (Ljava/lang/Object;Ljava/io/ObjectStreamClass;)V 2 5378 orig 264 56 173 63 97 0 0 0 0 72 154 221 26 0 0 0 0 88 7 0 0 48 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 1 160 0 0 217 147 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 34 0 2 0 0 0 0 6 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 192 0x10005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x60007 0x0 0xa0 0x13ff 0xa0007 0x0 0x80 0x13ff 0xf0005 0x8 0x2ac9bf0 0x13f7 0x0 0x0 0x120007 0x13ff 0x30 0x0 0x190002 0x0 0x1e0005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x220005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x2b0007 0x314 0x40 0x10eb 0x350007 0xf62 0x20 0x189 0x460005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x550005 0x0 0x193f5660 0x13ff 0x0 0x0 0x5a0005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x600005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x750005 0x0 0x193f4de0 0x13ff 0x0 0x0 0x800007 0x13ff 0x3a0 0x127b 0x860007 0x127b 0x270 0x0 0x910002 0x0 0x960005 0x0 0x0 0x0 0x0 0x0 0x9a0005 0x0 0x0 0x0 0x0 0x0 0x9d0005 0x0 0x0 0x0 0x0 0x0 0xa20005 0x0 0x0 0x0 0x0 0x0 0xad0005 0x0 0x0 0x0 0x0 0x0 0xb00005 0x0 0x0 0x0 0x0 0x0 0xb50005 0x0 0x0 0x0 0x0 0x0 0xc00005 0x0 0x0 0x0 0x0 0x0 0xc30005 0x0 0x0 0x0 0x0 0x0 0xc80005 0x0 0x0 0x0 0x0 0x0 0xcb0005 0x0 0x0 0x0 0x0 0x0 0xce0005 0x0 0x0 0x0 0x0 0x0 0xdf0005 0x0 0x193f5710 0x127b 0x0 0x0 0xe20002 0x127b 0xe80007 0x127b 0xb8 0x0 0xef0005 0x0 0x0 0x0 0x0 0x0 0xf20003 0x0 0x68 0xfa0007 0x0 0x50 0x0 0x1010005 0x0 0x0 0x0 0x0 0x0 0x10a0003 0x127b 0xfffffffffffffc78 oops 10 2 java/io/ObjectStreamClass 16 java/lang/Class 28 java/io/ObjectStreamClass 34 java/io/ObjectStreamClass 48 java/io/ObjectStreamClass 54 java/io/ObjectOutputStream$BlockDataOutputStream 60 java/io/ObjectStreamClass 66 java/io/ObjectStreamClass 72 java/io/ObjectStreamClass 160 java/io/ObjectStreamField
+ciMethodData java/io/ObjectStreamClass$FieldReflector getPrimFieldValues (Ljava/lang/Object;[B)V 2 5382 orig 264 56 173 63 97 0 0 0 0 72 189 221 26 0 0 0 0 48 6 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 33 160 0 0 169 98 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 30 0 2 0 0 0 216 4 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 155 0x10007 0x1404 0x30 0x0 0x80002 0x0 0x130007 0x1404 0x4a8 0xc55 0x2c0008 0x34 0x0 0x460 0x0 0x208 0x0 0x250 0x0 0x408 0x0 0x460 0x0 0x358 0x0 0x460 0x0 0x460 0x0 0x300 0x4f 0x3b0 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x2a8 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x460 0x0 0x1b0 0xa90005 0x0 0x0 0x0 0x0 0x0 0xac0002 0x4 0xaf0003 0x4 0x280 0xbb0005 0x0 0x0 0x0 0x0 0x0 0xbf0003 0x0 0x238 0xcb0005 0x0 0x0 0x0 0x0 0x0 0xce0002 0x0 0xd10003 0x0 0x1e0 0xdd0005 0x0 0x0 0x0 0x0 0x0 0xe00002 0x0 0xe30003 0x0 0x188 0xef0005 0x0 0x0 0x0 0x0 0x0 0xf20002 0x0 0xf50003 0x0 0x130 0x1010005 0x0 0x0 0x0 0x0 0x0 0x1040002 0x0 0x1070003 0x0 0xd8 0x1130005 0x4f 0x0 0x0 0x0 0x0 0x1160002 0xc51 0x1190003 0xc51 0x80 0x1250005 0x0 0x0 0x0 0x0 0x0 0x1280002 0x0 0x12b0003 0x0 0x28 0x1320002 0x0 0x1390003 0xc55 0xfffffffffffffb70 oops 0
+ciMethodData java/io/ObjectOutputStream$BlockDataOutputStream write ([BIIZ)V 2 5390 orig 264 56 173 63 97 0 0 0 0 144 142 212 31 0 0 0 0 104 3 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 97 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 24 0 2 0 0 0 0 2 0 0 255 255 255 255 7 0 2 0 0 0 0 0 data 64 0x20007 0x0 0xa0 0x140c 0x90007 0x0 0x80 0x140c 0xd0005 0x0 0x193f5660 0x140c 0x0 0x0 0x170005 0x0 0x1a35ca70 0x140c 0x0 0x0 0x1c0007 0x0 0x160 0x0 0x260007 0x0 0x50 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x310007 0x0 0xb8 0x0 0x360007 0x0 0x98 0x0 0x3d0007 0x0 0x78 0x0 0x440002 0x0 0x500005 0x0 0x0 0x0 0x0 0x0 0x5f0003 0x0 0xfffffffffffffef0 0x6b0002 0x0 0x7c0002 0x0 0x940003 0x0 0xfffffffffffffeb8 oops 2 10 java/io/ObjectOutputStream$BlockDataOutputStream 16 org/gradle/internal/serialize/AbstractEncoder$EncoderStream
+ciMethodData java/io/ObjectStreamClass getObjFieldValues (Ljava/lang/Object;[Ljava/lang/Object;)V 2 5395 orig 264 56 173 63 97 0 0 0 0 72 163 220 26 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 137 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 6 0x60005 0x0 0x1e4f0550 0x1411 0x0 0x0 oops 1 2 java/io/ObjectStreamClass$FieldReflector
+ciMethodData java/io/ObjectStreamClass$FieldReflector getObjFieldValues (Ljava/lang/Object;[Ljava/lang/Object;)V 2 5395 orig 264 56 173 63 97 0 0 0 0 64 192 221 26 0 0 0 0 136 2 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 137 160 0 0 97 148 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 12 0 2 0 0 0 48 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 38 0x10007 0x1411 0x30 0x0 0x80002 0x0 0x170007 0x1411 0x100 0x128c 0x200008 0x6 0x0 0xb8 0x7a 0x40 0x0 0x40 0x4d0005 0x7a 0x0 0x0 0x0 0x0 0x500004 0x0 0x1e3a2790 0x312 0x2ac9b60 0x7bd 0x510003 0x128c 0x28 0x580002 0x0 0x5f0003 0x128c 0xffffffffffffff18 oops 2 26 org/gradle/tooling/internal/provider/events/DefaultOperationDescriptor 28 java/lang/String
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream setBlockDataMode (Z)Z 2169 1 20449 0 -1
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream write ([BIIZ)V 2065 1 5379 0 0
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream drain ()V 1089 1 5382 0 576
+ciMethod java/io/ObjectOutputStream$BlockDataOutputStream writeBlockHeader (I)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream$HandleTable lookup (Ljava/lang/Object;)I 2209 793 5421 0 -1
+ciMethod java/io/ObjectOutputStream$ReplaceTable assign (Ljava/lang/Object;Ljava/lang/Object;)V 0 0 1 0 -1
+ciMethod java/io/ObjectOutputStream$ReplaceTable lookup (Ljava/lang/Object;)Ljava/lang/Object; 2041 1 5821 0 -1
+ciMethodData java/io/Bits putInt ([BII)V 2 1291 orig 264 56 173 63 97 0 0 0 0 80 64 220 26 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 245 0 0 0 177 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/io/Bits putChar ([BIC)V 1 0 orig 264 56 173 63 97 0 0 0 0 248 62 220 26 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/io/Bits putDouble ([BID)V 1 0 orig 264 56 173 63 97 0 0 0 0 112 66 220 26 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 4 0x30002 0x0 0x60002 0x0 oops 0
+ciMethodData java/io/Bits putFloat ([BIF)V 1 0 orig 264 56 173 63 97 0 0 0 0 232 64 220 26 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 32 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 4 0x30002 0x0 0x60002 0x0 oops 0
+ciMethodData java/io/Bits putBoolean ([BIZ)V 1 4 orig 264 56 173 63 97 0 0 0 0 88 62 220 26 0 0 0 0 104 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 56 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 7 0x30007 0x3 0x38 0x1 0x70003 0x1 0x18 oops 0
+instanceKlass com/google/common/cache/RemovalNotification
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformedFileCache$CacheKey
+instanceKlass org/gradle/api/internal/artifacts/transform/TransformArtifactOperation
+instanceKlass org/gradle/api/internal/artifacts/transform/TransformCompletion
+instanceKlass org/gradle/api/internal/artifacts/transform/TransformingAsyncArtifactListener
+instanceKlass org/gradle/api/tasks/util/internal/CachingPatternSpecFactory$CachingSpec
+instanceKlass org/gradle/api/tasks/util/internal/CachingPatternSpecFactory$1
+instanceKlass org/gradle/api/tasks/util/internal/CachingPatternSpecFactory$SpecKey
+instanceKlass org/gradle/api/internal/artifacts/transform/ConsumerProvidedResolvedVariant
+instanceKlass org/gradle/api/internal/artifacts/transform/ChainedTransformer
+instanceKlass org/gradle/api/internal/artifacts/transform/ConsumerVariantMatchResult$ConsumerVariant
+instanceKlass org/gradle/api/internal/artifacts/transform/ConsumerProvidedVariantFinder$AttributeSpecificCache
+instanceKlass org/gradle/api/internal/artifacts/transform/ConsumerVariantMatchResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/strategy/InverseVersionSelector
+instanceKlass com/android/build/gradle/internal/dependency/ConstraintHandler$execute$$inlined$forEach$lambda$1$1
+instanceKlass com/android/build/gradle/internal/dependency/ConstraintHandler$execute$$inlined$forEach$lambda$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/artifacts/DefaultCachedArtifacts
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/artifacts/InMemoryModuleArtifactsCache$ModuleArtifactsCacheEntry
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/artifacts/ArtifactsAtRepositoryKey
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/oldresult/TransientConfigurationResultsBuilder$5
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/graph/builder/VariantNameBuilder$MultipleVariantName
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DefaultMetadataProvider$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DefaultMetadataProvider
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DynamicVersionResolver$CandidateResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ModuleComponentResolveState
+instanceKlass org/gradle/api/internal/artifacts/cache/DependencyResolutionControl
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/CachingModuleComponentRepository$LocateInCacheRepositoryAccess$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/dynamicversions/DefaultCachedModuleVersionList
+instanceKlass java/util/Collections$ReverseComparator2
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DynamicVersionResolver$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/dynamicversions/ModuleVersionsCacheEntry
+instanceKlass org/gradle/api/internal/artifacts/repositories/maven/MavenMetadata
+instanceKlass org/gradle/api/internal/artifacts/repositories/maven/MavenVersionLister
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/ExternalResourceResolver$1
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/ResourceVersionLister
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/modulecache/dynamicversions/ModuleAtRepositoryKey
+instanceKlass org/gradle/internal/resolve/result/BuildableModuleVersionListingResolveResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DynamicVersionResolver$VersionListResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DynamicVersionResolver$AttemptCollector
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DynamicVersionResolver$RepositoryResolveState
+instanceKlass org/gradle/internal/resolve/result/ComponentSelectionContext
+instanceKlass org/gradle/internal/component/model/AttributeConfigurationSelector
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/CachingModuleComponentRepository$1
+instanceKlass org/gradle/internal/resource/AbstractExternalResource
+instanceKlass org/gradle/internal/resource/transfer/CacheAwareExternalResourceAccessor$DefaultResourceFileStore
+instanceKlass org/gradle/internal/resource/local/CompositeLocallyAvailableResourceFinder$CompositeLocallyAvailableResourceCandidates
+instanceKlass org/gradle/internal/resource/local/LocallyAvailableResourceFinderSearchableFileStoreAdapter$1$1
+instanceKlass org/gradle/internal/resource/local/LazyLocallyAvailableResourceCandidates
+instanceKlass org/apache/ivy/core/module/descriptor/Artifact
+instanceKlass org/apache/ivy/util/extendable/ExtendableItem
+instanceKlass org/apache/ivy/core/settings/IvyVariableContainer
+instanceKlass org/apache/ivy/core/IvyPatternHelper
+instanceKlass org/gradle/internal/component/external/model/UrlBackedArtifactMetadata
+instanceKlass org/gradle/api/internal/artifacts/repositories/resolver/DefaultExternalResourceArtifactResolver
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/LocalModuleComponentRepository$RemoteAccess
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/LocalModuleComponentRepository$LocalAccess
+instanceKlass org/gradle/internal/resource/transport/file/FileTransport$FileCacheAwareExternalResourceAccessor
+instanceKlass org/gradle/api/internal/changedetection/state/CacheBackedTaskHistoryRepository$4
+instanceKlass com/google/common/collect/SortedIterables
+instanceKlass com/google/common/collect/SortedLists
+instanceKlass org/gradle/api/internal/changedetection/state/AbstractTaskExecution
+instanceKlass org/gradle/api/internal/changedetection/state/ImplementationSnapshot
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultNormalizedFileSnapshot$1
+instanceKlass org/gradle/api/internal/changedetection/state/AbstractNormalizedFileSnapshot
+instanceKlass org/gradle/internal/fingerprint/impl/SnapshotMapSerializer$1
+instanceKlass org/gradle/api/internal/tasks/OriginTaskExecutionMetadata
+instanceKlass org/gradle/cache/internal/btree/FreeListBlockStore$FreeListEntry
+instanceKlass org/gradle/api/internal/changedetection/changes/DefaultTaskArtifactStateRepository$MessageCollectingChangeVisitor
+instanceKlass org/gradle/language/base/plugins/LifecycleBasePlugin$3$1
+instanceKlass org/gradle/api/internal/changedetection/state/CacheBackedTaskHistoryRepository$1
+instanceKlass org/gradle/normalization/internal/DefaultInputNormalizationHandler
+instanceKlass org/gradle/normalization/internal/InputNormalizationHandlerInternal
+instanceKlass org/gradle/normalization/internal/DefaultRuntimeClasspathNormalization
+instanceKlass org/gradle/api/internal/changedetection/state/TaskExecution
+instanceKlass org/gradle/api/internal/changedetection/rules/TaskUpToDateState
+instanceKlass org/gradle/api/internal/changedetection/rules/TaskStateChangeVisitor
+instanceKlass org/gradle/api/internal/changedetection/changes/DefaultTaskArtifactStateRepository$TaskArtifactStateImpl
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskPlanExecutor$ExecutorWorker$3
+instanceKlass org/gradle/internal/logging/events/StyledTextOutputEvent$Span
+instanceKlass org/gradle/internal/logging/events/operations/StyledTextBuildOperationProgressDetails$Span
+instanceKlass com/android/tools/build/gradle/internal/profile/GradleTaskExecutionType$1
+instanceKlass org/gradle/api/internal/tasks/execution/statistics/TaskExecutionStatisticsEventAdapter$1
+instanceKlass org/gradle/api/execution/internal/ExecuteTaskBuildOperationResult
+instanceKlass org/gradle/internal/execution/ExecuteTaskBuildOperationType$Result
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunBuildContext$Artifact
+instanceKlass java/util/Collections$EmptyEnumeration
+instanceKlass com/google/common/io/ByteArrayDataOutput
+instanceKlass com/google/common/io/ByteArrayDataInput
+instanceKlass com/google/common/io/ByteStreams
+instanceKlass com/google/common/io/Closer$SuppressingSuppressor
+instanceKlass com/google/common/io/Closer$Suppressor
+instanceKlass com/google/common/io/Closer
+instanceKlass com/google/common/io/CharSource
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter$1
+instanceKlass org/gradle/internal/logging/compatbridge/LoggingManagerInternalCompatibilityBridge
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskValidationContext
+instanceKlass org/gradle/api/internal/changedetection/changes/NoOutputsArtifactState$1
+instanceKlass org/gradle/caching/internal/tasks/BuildCacheKeyInputs
+instanceKlass org/gradle/caching/internal/tasks/TaskOutputCachingBuildCacheKey
+instanceKlass org/gradle/caching/BuildCacheKey
+instanceKlass org/gradle/api/internal/changedetection/changes/NoOutputsArtifactState
+instanceKlass org/gradle/api/internal/TaskExecutionHistory
+instanceKlass org/gradle/internal/operations/OperationProgressEvent
+instanceKlass org/gradle/tooling/internal/provider/events/DefaultTaskDescriptor
+instanceKlass org/gradle/tooling/internal/protocol/events/InternalTaskDescriptor
+instanceKlass org/gradle/api/internal/tasks/execution/EventFiringTaskExecuter$1
+instanceKlass org/gradle/api/internal/tasks/execution/EventFiringTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/CatchExceptionTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteAtMostOnceTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipOnlyIfTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipTaskWithNoActionsExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/ResolveTaskArtifactStateTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/CleanupStaleOutputsExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/FinalizeInputFilePropertiesTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipEmptySourceFilesTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/TaskValidationContext
+instanceKlass org/gradle/api/internal/tasks/execution/ValidatingTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/ResolveTaskOutputCachingStateExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/SkipUpToDateTaskExecuter
+instanceKlass org/gradle/api/internal/tasks/execution/OutputDirectoryCreatingTaskExecuter
+instanceKlass org/gradle/api/execution/TaskActionListener
+instanceKlass org/gradle/api/internal/tasks/execution/ExecuteActionsTaskExecuter
+instanceKlass org/gradle/caching/internal/controller/BuildCacheStoreCommand
+instanceKlass org/gradle/caching/internal/controller/BuildCacheLoadCommand
+instanceKlass org/gradle/caching/internal/tasks/origin/TaskOutputOriginReader
+instanceKlass org/gradle/caching/internal/tasks/origin/TaskOutputOriginWriter
+instanceKlass com/google/common/io/BaseEncoding$StandardBaseEncoding$1
+instanceKlass com/google/common/io/GwtWorkarounds$6
+instanceKlass com/google/common/io/GwtWorkarounds
+instanceKlass org/gradle/internal/id/UniqueId$1
+instanceKlass com/google/common/base/Ascii
+instanceKlass com/google/common/io/GwtWorkarounds$ByteOutput
+instanceKlass com/google/common/io/GwtWorkarounds$ByteInput
+instanceKlass com/google/common/io/GwtWorkarounds$CharOutput
+instanceKlass com/google/common/io/GwtWorkarounds$CharInput
+instanceKlass com/google/common/io/BaseEncoding
+instanceKlass org/gradle/internal/id/UniqueId
+instanceKlass org/apache/commons/compress/archivers/ArchiveEntry
+instanceKlass org/gradle/caching/internal/tasks/TarTaskOutputPacker
+instanceKlass org/gradle/caching/internal/tasks/GZipTaskOutputPacker
+instanceKlass org/gradle/api/internal/changedetection/changes/DefaultTaskArtifactStateRepository
+instanceKlass org/gradle/api/internal/changedetection/TaskArtifactState
+instanceKlass org/gradle/api/internal/changedetection/changes/ShortCircuitTaskArtifactStateRepository
+instanceKlass org/gradle/caching/internal/tasks/TaskOutputCachingBuildCacheKeyBuilder
+instanceKlass org/gradle/caching/internal/tasks/TaskCacheKeyCalculator
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultTaskOutputFilesRepository
+instanceKlass org/gradle/api/internal/changedetection/state/InputPropertiesSerializer
+instanceKlass org/gradle/api/internal/changedetection/state/TaskHistoryRepository$History
+instanceKlass org/gradle/api/internal/changedetection/state/CacheBackedTaskHistoryRepository
+instanceKlass org/gradle/internal/serialize/Serializers$1
+instanceKlass org/gradle/internal/fingerprint/impl/EmptyHistoricalFileCollectionFingerprint
+instanceKlass org/gradle/internal/fingerprint/impl/DefaultHistoricalFileCollectionFingerprint$SerializerImpl
+instanceKlass org/gradle/internal/fingerprint/impl/DefaultHistoricalFileCollectionFingerprint
+instanceKlass org/gradle/internal/fingerprint/OutputNormalizer
+instanceKlass org/gradle/internal/fingerprint/impl/DefaultFileCollectionFingerprinterRegistry$1
+instanceKlass org/gradle/internal/fingerprint/impl/DefaultFileCollectionFingerprinterRegistry
+instanceKlass org/gradle/api/internal/changedetection/state/AbiExtractingClasspathResourceHasher
+instanceKlass org/gradle/api/internal/changedetection/state/SplitResourceSnapshotterCacheService
+instanceKlass org/gradle/internal/fingerprint/impl/IgnoredPathFingerprintingStrategy
+instanceKlass org/gradle/internal/fingerprint/impl/NameOnlyFingerprintingStrategy
+instanceKlass org/gradle/internal/fingerprint/impl/RelativePathFingerprintingStrategy
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultTaskHistoryStore
+instanceKlass org/gradle/api/internal/tasks/execution/DefaultTaskExecutionContext
+instanceKlass org/gradle/api/internal/tasks/execution/DefaultTaskProperties$3
+instanceKlass org/gradle/api/internal/tasks/properties/GetInputPropertiesVisitor$1
+instanceKlass org/gradle/api/internal/tasks/properties/CompositePropertyVisitor
+instanceKlass org/gradle/api/internal/tasks/execution/DefaultTaskProperties
+instanceKlass org/gradle/api/internal/tasks/execution/TaskProperties
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskPlanExecutor$ExecutorWorker$2
+instanceKlass org/gradle/internal/MutableReference
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskPlanExecutor$ExecutorWorker$1
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskPlanExecutor$ExecutorWorker
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor
+instanceKlass org/gradle/execution/taskgraph/NotifyTaskGraphWhenReadyBuildOperationType$1
+instanceKlass org/gradle/execution/taskgraph/NotifyTaskGraphWhenReadyBuildOperationType$Result
+instanceKlass org/gradle/execution/taskgraph/NotifyTaskGraphWhenReadyBuildOperationType
+instanceKlass org/gradle/execution/taskgraph/NotifyTaskGraphWhenReadyBuildOperationType$DetailsImpl
+instanceKlass org/gradle/execution/taskgraph/NotifyTaskGraphWhenReadyBuildOperationType$Details
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionGraph$NotifyTaskGraphWhenReady
+instanceKlass org/gradle/execution/SelectedTaskExecutionAction$BindAllReferencesOfProjectsToExecuteListener
+instanceKlass org/gradle/execution/DefaultBuildExecuter$1
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$ExecuteTasks
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$CalculateTaskGraph$1
+instanceKlass org/gradle/internal/taskgraph/CalculateTaskGraphBuildOperationType$Result
+instanceKlass org/gradle/internal/work/DefaultWorkerLeaseService$ProjectLockRegistry$1
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$MutationInfo
+instanceKlass java/util/TreeMap$NavigableSubMap$SubMapIterator
+instanceKlass java/util/Collections$ReverseComparator
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$3
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$WorkInfoInVisitingSegment
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$2
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionGraph$5
+instanceKlass com/google/common/collect/TransformedIterator
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunTransform$$Lambda$285
+instanceKlass com/android/build/gradle/internal/tasks/InstantRunSplitApkResourcesBuilder$CreationAction$configure$1
+instanceKlass java/util/stream/ForEachOps$ForEachOp
+instanceKlass java/util/stream/ForEachOps
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunSplitApkBuilder$$Lambda$284
+instanceKlass com/android/build/gradle/internal/transforms/InstantRunSplitApkBuilder$$Lambda$283
+instanceKlass org/gradle/api/internal/file/AbstractFileTreeElement
+instanceKlass java/nio/file/Files$3
+instanceKlass java/nio/file/FileTreeWalker$Event
+instanceKlass java/nio/file/FileTreeWalker$DirectoryNode
+instanceKlass java/util/ArrayDeque$DeqIterator
+instanceKlass java/nio/file/FileTreeWalker$1
+instanceKlass java/nio/file/FileTreeWalker
+instanceKlass org/gradle/api/internal/file/collections/jdk7/Jdk7DirectoryWalker$1
+instanceKlass org/gradle/api/file/ReproducibleFileVisitor
+instanceKlass org/gradle/api/internal/file/RelativePathSpec
+instanceKlass org/gradle/api/internal/file/pattern/AnythingMatcher
+instanceKlass org/gradle/api/internal/file/pattern/FixedPatternStep
+instanceKlass org/gradle/api/internal/file/pattern/PatternMatcherFactory$PathMatcherBackedSpec
+instanceKlass org/gradle/api/internal/file/pattern/HasSuffixPatternStep
+instanceKlass org/gradle/api/internal/file/pattern/HasPrefixPatternStep
+instanceKlass org/gradle/api/internal/file/pattern/HasPrefixAndSuffixPatternStep
+instanceKlass org/gradle/api/internal/file/pattern/AnyWildcardPatternStep
+instanceKlass org/gradle/api/internal/file/pattern/PatternStep
+instanceKlass org/gradle/api/internal/file/pattern/PatternStepFactory
+instanceKlass org/gradle/api/internal/file/pattern/FixedStepPathMatcher
+instanceKlass org/gradle/api/internal/file/pattern/GreedyPathMatcher
+instanceKlass org/gradle/api/internal/file/pattern/EndOfPathMatcher
+instanceKlass org/gradle/api/internal/file/pattern/PathMatcher
+instanceKlass org/gradle/api/internal/file/pattern/PatternMatcherFactory
+instanceKlass org/gradle/api/file/RelativePath
+instanceKlass org/gradle/api/file/EmptyFileVisitor
+instanceKlass org/gradle/api/internal/file/collections/AbstractDirectoryWalker
+instanceKlass org/gradle/api/internal/file/collections/jdk7/Jdk7DirectoryWalker
+instanceKlass org/gradle/api/internal/file/collections/DefaultDirectoryWalkerFactory
+instanceKlass org/gradle/api/internal/file/collections/DirectoryWalker
+instanceKlass com/android/build/api/transform/SecondaryFile$$Lambda$282
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$8
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$7
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$6
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$5
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$4
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$3
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskInputs$4
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$2
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1$1
+instanceKlass org/gradle/api/internal/file/copy/DefaultCopySpec$2
+instanceKlass org/gradle/api/internal/file/copy/DefaultCopySpec$DefaultCopySpecAddress
+instanceKlass org/gradle/api/internal/file/copy/DefaultCopySpec$1
+instanceKlass org/gradle/api/internal/file/copy/DefaultCopySpec$DefaultCopySpecResolver
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$2
+instanceKlass org/gradle/api/tasks/AbstractCopyTask$1
+instanceKlass org/gradle/api/internal/file/copy/PathNotationConverter
+instanceKlass org/gradle/api/internal/file/copy/CopySpecResolver
+instanceKlass org/gradle/api/internal/file/copy/CopySpecInternal$CopySpecAddress
+instanceKlass org/gradle/api/internal/file/copy/CopySpecInternal$CopySpecVisitor
+instanceKlass org/gradle/api/internal/file/copy/DefaultCopySpec
+instanceKlass org/gradle/api/internal/file/copy/CopyActionExecuter
+instanceKlass org/gradle/api/internal/file/copy/DelegatingCopySpecInternal
+instanceKlass org/gradle/api/internal/file/copy/CopySpecInternal$CopySpecListener
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$$Lambda$281
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeJniLibFoldersCreationAction$$Lambda$280
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeJniLibFoldersCreationAction$$Lambda$279
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeJniLibFoldersCreationAction$$Lambda$278
+instanceKlass com/android/build/gradle/internal/tasks/ValidateSigningTask$CreationAction$configure$1
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeShaderSourceFoldersCreationAction$$Lambda$277
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeShaderSourceFoldersCreationAction$$Lambda$276
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeShaderSourceFoldersCreationAction$$Lambda$275
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$KeySet$1
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$OutputFileProvider
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeAssetBaseCreationAction$$Lambda$274
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeAssetBaseCreationAction$$Lambda$273
+instanceKlass com/android/build/gradle/tasks/MergeSourceSetFolders$MergeAssetBaseCreationAction$$Lambda$272
+instanceKlass com/android/build/gradle/internal/core/VariantConfiguration$$Lambda$271
+instanceKlass com/android/build/gradle/tasks/MergeResources$CreationAction$$Lambda$270
+instanceKlass com/android/build/gradle/tasks/GenerateResValues$CreationAction$$Lambda$269
+instanceKlass com/android/build/gradle/tasks/CompatibleScreensManifest$CreationAction$configure$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/DefaultVisitedArtifactResults$NoArtifactResults
+instanceKlass com/android/build/gradle/tasks/MergeResources$CreationAction$$Lambda$268
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantData$$Lambda$267
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantData$$Lambda$266
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantData$$Lambda$265
+instanceKlass com/android/build/gradle/internal/variant/BaseVariantData$$Lambda$264
+instanceKlass com/android/build/gradle/tasks/MergeResources$CreationAction$$Lambda$263
+instanceKlass com/android/ide/common/workers/ExecutorServiceAdapter
+instanceKlass com/android/ide/common/resources/FileValidity
+instanceKlass com/android/ide/common/workers/WorkerExecutorFacade
+instanceKlass com/android/ide/common/resources/DataSet
+instanceKlass com/android/ide/common/resources/DataMap
+instanceKlass com/android/ide/common/resources/SourceSet
+instanceKlass com/android/ide/common/resources/ResourceCompilationService
+instanceKlass com/android/ide/common/resources/ResourcePreprocessor
+instanceKlass com/android/ide/common/resources/MergeConsumer
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$CreationAction$$Lambda$262
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$CreationAction$$Lambda$261
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$CreationAction$$Lambda$260
+instanceKlass com/android/build/gradle/tasks/ProcessApplicationManifest$CreationAction$$Lambda$259
+instanceKlass com/android/build/gradle/internal/scope/SplitList$SplitAction
+instanceKlass com/android/build/gradle/internal/core/VariantConfiguration$$Lambda$258
+instanceKlass com/android/build/gradle/internal/core/VariantConfiguration$$Lambda$257
+instanceKlass com/android/build/gradle/internal/core/VariantConfiguration$$Lambda$256
+instanceKlass com/android/build/gradle/internal/core/VariantConfiguration$$Lambda$255
+instanceKlass com/android/build/gradle/internal/scope/GlobalScope$$Lambda$254
+instanceKlass com/android/build/gradle/internal/scope/GlobalScope$$Lambda$253
+instanceKlass org/gradle/api/internal/file/DefaultProjectLayout$FixedFile
+instanceKlass com/android/build/gradle/internal/res/LinkApplicationAndroidResourcesTask$BaseCreationAction$$Lambda$252
+instanceKlass com/android/build/gradle/internal/res/LinkApplicationAndroidResourcesTask$BaseCreationAction$$Lambda$251
+instanceKlass com/android/build/gradle/internal/res/LinkApplicationAndroidResourcesTask$$Lambda$250
+instanceKlass com/android/build/gradle/internal/res/namespaced/Aapt2ServiceKey
+instanceKlass com/android/ide/common/internal/WaitableExecutor$TaskResult
+instanceKlass com/android/build/gradle/internal/scope/SplitList
+instanceKlass org/gradle/api/internal/file/collections/ListBackedFileSet
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$FileTreeConverter
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$FileCollectionConverter
+instanceKlass org/gradle/internal/nativeintegration/services/FileSystems
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext$Converter
+instanceKlass org/gradle/api/internal/file/collections/DefaultFileCollectionResolveContext
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$249
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$248
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$247
+instanceKlass com/google/common/collect/RangeGwtSerializationDependencies
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$246
+instanceKlass com/google/common/collect/SortedIterable
+instanceKlass com/google/common/collect/ImmutableRangeSet$Builder
+instanceKlass com/google/common/collect/AbstractRangeSet
+instanceKlass com/google/common/collect/RangeSet
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$245
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$244
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$243
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$242
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$241
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$240
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$239
+instanceKlass com/google/common/collect/CollectCollectors$$Lambda$238
+instanceKlass com/google/common/collect/CollectCollectors
+instanceKlass com/android/build/gradle/internal/api/DefaultAndroidSourceDirectorySet$getSourceDirectoryTrees$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/BuildDependenciesOnlyVisitedArtifactSet$BuildDependenciesOnlySelectedArtifactSet
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/LocalFileDependencyBackedArtifactSet
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/FileDependencyArtifactSet
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/moduleconverter/dependencies/DefaultLocalConfigurationMetadataBuilder$DefaultLocalFileDependencyMetadata
+instanceKlass org/gradle/internal/component/local/model/PublishArtifactLocalArtifactMetadata
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/moduleconverter/DefaultRootComponentMetadataBuilder$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ivyresolve/NoRepositoriesResolver
+instanceKlass org/gradle/api/internal/artifacts/configurations/DefaultConfiguration$ConfigurationTaskDependency$1
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/BuildDependenciesVisitor
+instanceKlass org/gradle/internal/Transformers$ToStringTransformer
+instanceKlass org/gradle/api/internal/tasks/properties/bean/NestedRuntimeBeanNode$ImplementationPropertyValue
+instanceKlass org/gradle/api/internal/tasks/TaskOutputsDeprecationSupport
+instanceKlass org/gradle/api/internal/tasks/CacheableTaskOutputFilePropertySpec
+instanceKlass org/gradle/platform/base/internal/toolchain/ToolProvider
+instanceKlass org/gradle/api/internal/tasks/AbstractJavaToolChain
+instanceKlass org/gradle/api/internal/tasks/compile/DefaultJavaCompilerFactory
+instanceKlass org/gradle/cache/internal/SplitFileContentCacheFactory$SplitFileContentCache
+instanceKlass org/gradle/cache/internal/DefaultFileContentCacheFactory$DefaultFileContentCache
+instanceKlass org/gradle/api/internal/tasks/compile/processing/AnnotationProcessorDeclarationSerializer
+instanceKlass org/gradle/api/internal/tasks/compile/processing/AnnotationProcessorDetector$ProcessorServiceLocator
+instanceKlass org/gradle/cache/internal/SplitFileContentCacheFactory
+instanceKlass org/gradle/cache/internal/FileContentCache
+instanceKlass org/gradle/cache/internal/DefaultFileContentCacheFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$SystemJavaCompilerFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$SystemPropertiesJavaHomeFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory$CurrentJvmJavaHomeFactory
+instanceKlass org/gradle/api/internal/tasks/compile/JavaHomeBasedJavaCompilerFactory
+instanceKlass org/gradle/internal/fingerprint/NameOnlyInputNormalizer
+instanceKlass org/gradle/jvm/platform/internal/DefaultJavaPlatform
+instanceKlass org/gradle/api/internal/tasks/properties/bean/AbstractNestedRuntimeBeanNode$DefaultPropertyValue$1$1
+instanceKlass org/gradle/api/tasks/ClasspathNormalizer
+instanceKlass org/gradle/api/tasks/CompileClasspathNormalizer
+instanceKlass org/gradle/internal/fingerprint/RelativePathInputNormalizer
+instanceKlass org/gradle/internal/fingerprint/IgnoredPathInputNormalizer
+instanceKlass org/gradle/api/internal/tasks/DeclaredTaskInputProperty
+instanceKlass org/gradle/api/tasks/TaskInputPropertyBuilder
+instanceKlass org/gradle/api/internal/tasks/properties/bean/AbstractNestedRuntimeBeanNode$1
+instanceKlass org/gradle/api/internal/tasks/properties/bean/AbstractNestedRuntimeBeanNode$DefaultPropertyValue$1
+instanceKlass org/gradle/api/internal/tasks/properties/bean/AbstractNestedRuntimeBeanNode$DefaultPropertyValue
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultPropertyMetadataStore$4
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultPropertyMetadataStore$DefaultPropertyMetadata
+instanceKlass org/gradle/api/internal/tasks/properties/PropertyMetadata
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultPropertyMetadataStore$Getter
+instanceKlass org/apache/commons/lang/builder/HashCodeBuilder
+instanceKlass com/google/common/base/Equivalence$Wrapper
+instanceKlass org/gradle/internal/reflect/Methods
+instanceKlass org/gradle/internal/reflect/GroovyMethods$1
+instanceKlass org/gradle/internal/reflect/GroovyMethods
+instanceKlass org/gradle/api/internal/AbstractTask$22
+instanceKlass com/android/build/gradle/tasks/AidlCompile$CreationAction$$Lambda$237
+instanceKlass com/android/builder/internal/compiler/DirectoryWalker$FileAction
+instanceKlass com/android/builder/compiling/DependencyFileProcessor
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$236
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$235
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$234
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$233
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$232
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$231
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$230
+instanceKlass com/android/build/gradle/tasks/GenerateBuildConfig$CreationAction$$Lambda$229
+instanceKlass com/android/build/gradle/tasks/RenderscriptCompile$CreationAction$$Lambda$228
+instanceKlass com/android/build/gradle/tasks/RenderscriptCompile$CreationAction$$Lambda$227
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultPropertyMetadataStore$DefaultTypeMetadata
+instanceKlass org/gradle/internal/reflect/Types
+instanceKlass org/gradle/api/internal/tasks/properties/DefaultPropertyMetadataStore$3
+instanceKlass org/gradle/api/internal/tasks/properties/PropertyValue
+instanceKlass org/gradle/api/internal/tasks/properties/BeanPropertyContext
+instanceKlass org/gradle/api/internal/tasks/TaskPropertyUtils
+instanceKlass org/gradle/api/internal/tasks/properties/PropertyVisitor$Adapter
+instanceKlass org/gradle/api/internal/file/collections/BuildDependenciesOnlyFileCollectionResolveContext
+instanceKlass org/gradle/execution/taskgraph/TaskInfoWorkDependencyResolver$1
+instanceKlass org/gradle/api/internal/tasks/WorkDependencyResolver$1
+instanceKlass org/gradle/api/internal/tasks/CachingTaskDependencyResolveContext$TaskGraphImpl$1
+instanceKlass com/android/tools/build/apkzlib/zfile/ApkCreator
+instanceKlass com/android/build/gradle/internal/pipeline/IntermediateStream$$Lambda$226
+instanceKlass com/android/build/gradle/internal/pipeline/StreamFilter$$Lambda$225
+instanceKlass com/android/build/gradle/internal/pipeline/StreamFilter$$Lambda$224
+instanceKlass com/android/build/gradle/internal/pipeline/StreamFilter$$Lambda$223
+instanceKlass com/android/build/gradle/internal/pipeline/StreamFilter$$Lambda$222
+instanceKlass com/android/build/gradle/internal/pipeline/StreamFilter
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$CreationAction$$Lambda$221
+instanceKlass com/google/common/base/Suppliers$MemoizingSupplier
+instanceKlass com/google/common/base/Suppliers$NonSerializableMemoizingSupplier
+instanceKlass com/android/build/gradle/internal/tasks/TaskInputHelper$$Lambda$220
+instanceKlass com/android/build/gradle/internal/tasks/TaskInputHelper
+instanceKlass com/android/build/gradle/tasks/PackageAndroidArtifact$CreationAction$$Lambda$219
+instanceKlass com/android/builder/files/FileCacheByPath
+instanceKlass com/android/build/gradle/internal/scope/BuildOutput
+instanceKlass com/android/build/gradle/internal/scope/BuildElements
+instanceKlass org/gradle/api/internal/tasks/TaskReferenceInternal
+instanceKlass org/gradle/api/tasks/TaskReference
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker$NodeDetails
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan$1
+instanceKlass org/gradle/api/internal/AbstractTask$20
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskInputFilePropertySpec$1
+instanceKlass org/gradle/internal/fingerprint/AbsolutePathInputNormalizer
+instanceKlass org/gradle/api/tasks/FileNormalizer
+instanceKlass org/gradle/api/internal/tasks/StaticValue
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskInputs$1
+instanceKlass com/android/build/gradle/internal/pipeline/TransformStream$1
+instanceKlass com/google/common/collect/Iterators$ConcatenatedIterator
+instanceKlass com/google/common/base/Optional
+instanceKlass android/databinding/tool/util/Preconditions
+instanceKlass com/android/build/gradle/internal/pipeline/TransformTask$CreationAction$$Lambda$218
+instanceKlass org/gradle/internal/work/DefaultConditionalExecutionQueue
+instanceKlass org/gradle/workers/internal/DaemonForkOptions
+instanceKlass org/gradle/internal/work/AsyncWorkCompletion
+instanceKlass org/gradle/internal/work/ConditionalExecution
+instanceKlass org/gradle/workers/internal/ActionExecutionSpec
+instanceKlass org/gradle/workers/internal/WorkSpec
+instanceKlass org/gradle/workers/WorkerConfiguration
+instanceKlass org/gradle/workers/internal/DefaultWorkerExecutor
+instanceKlass org/gradle/workers/internal/NoIsolationWorkerFactory
+instanceKlass org/gradle/internal/work/DefaultConditionalExecutionQueueFactory
+instanceKlass org/gradle/process/internal/worker/child/DefaultWorkerDirectoryProvider
+instanceKlass org/gradle/internal/work/DefaultAsyncWorkTracker
+instanceKlass org/gradle/api/internal/classloading/NoOpGroovySystemLoader
+instanceKlass org/gradle/api/internal/classloading/GroovySystemLoader
+instanceKlass org/gradle/api/internal/classloading/GroovySystemLoaderFactory
+instanceKlass org/gradle/workers/internal/Worker
+instanceKlass org/gradle/workers/internal/WorkerDaemonExpiration
+instanceKlass org/gradle/workers/internal/WorkerDaemonClientsManager$LogLevelChangeEventListener
+instanceKlass org/gradle/workers/internal/WorkerDaemonClientsManager$StopSessionScopedWorkers
+instanceKlass org/gradle/workers/internal/WorkerDaemonStarter
+instanceKlass org/gradle/process/internal/health/memory/MemoryHolder
+instanceKlass org/gradle/process/internal/worker/child/ApplicationClassesInSystemClassLoaderWorkerImplementationFactory
+instanceKlass org/gradle/process/internal/worker/child/WorkerImplementationFactory
+instanceKlass org/gradle/process/internal/worker/MultiRequestWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/SingleRequestWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/WorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/WorkerProcessSettings
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcessFactory
+instanceKlass org/gradle/process/internal/health/memory/DefaultMemoryManager$MemoryCheck
+instanceKlass org/gradle/process/internal/health/memory/DefaultMemoryManager$OsMemoryListener
+instanceKlass org/gradle/process/internal/health/memory/MBeanAvailableMemory
+instanceKlass org/gradle/process/internal/health/memory/AvailableMemory
+instanceKlass org/gradle/process/internal/health/memory/MBeanAttributeProvider
+instanceKlass org/gradle/process/internal/health/memory/TotalPhysicalMemoryProvider
+instanceKlass org/gradle/process/internal/health/memory/OsMemoryStatusSnapshot
+instanceKlass org/gradle/process/internal/health/memory/JvmMemoryStatusListener
+instanceKlass org/gradle/process/internal/health/memory/DefaultMemoryManager
+instanceKlass org/gradle/process/internal/health/memory/JvmMemoryStatus
+instanceKlass org/gradle/process/internal/health/memory/DefaultJvmMemoryInfo
+instanceKlass org/gradle/process/internal/health/memory/OsMemoryStatus
+instanceKlass org/gradle/process/internal/health/memory/DefaultOsMemoryInfo
+instanceKlass org/gradle/internal/jvm/inspection/DefaultJvmVersionDetector
+instanceKlass org/gradle/internal/jvm/inspection/CachingJvmVersionDetector
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedServer
+instanceKlass com/android/build/api/transform/SecondaryFile
+instanceKlass org/gradle/api/tasks/incremental/InputFileDetails
+instanceKlass com/android/builder/profile/Recorder$Block
+instanceKlass com/android/build/gradle/tasks/JavaCompileUtils
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$11$2
+instanceKlass org/gradle/api/plugins/JavaBasePlugin$11$1
+instanceKlass org/gradle/api/internal/ConventionAwareHelper$MappedPropertyImpl
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs$3
+instanceKlass org/gradle/api/internal/tasks/execution/SelfDescribingSpec
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs$4
+instanceKlass org/gradle/api/internal/tasks/compile/CompilerForkUtils$1
+instanceKlass org/gradle/api/internal/tasks/compile/CompilerForkUtils
+instanceKlass org/gradle/api/tasks/compile/AbstractOptions
+instanceKlass org/gradle/api/internal/tasks/compile/CleaningJavaCompilerSupport
+instanceKlass org/gradle/api/internal/tasks/compile/DefaultJvmLanguageCompileSpec
+instanceKlass com/android/build/gradle/tasks/NdkCompile$CreationAction$$Lambda$217
+instanceKlass com/android/build/gradle/options/NdkLease
+instanceKlass org/gradle/api/internal/tasks/DefaultTaskOutputs$2
+instanceKlass org/gradle/api/internal/project/taskfactory/AnnotationProcessingTaskFactory$1
+instanceKlass org/gradle/api/tasks/incremental/IncrementalTaskInputs
+instanceKlass org/gradle/execution/TaskSelector$TaskSelection
+instanceKlass org/gradle/execution/TaskNameResolver$1
+instanceKlass org/gradle/execution/taskpath/ResolvedTaskPath
+instanceKlass org/gradle/util/NameMatcher
+instanceKlass org/gradle/execution/DefaultBuildConfigurationActionExecuter$1
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$CalculateTaskGraph$2
+instanceKlass org/gradle/internal/taskgraph/CalculateTaskGraphBuildOperationType$Details
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$CalculateTaskGraph
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ShortCircuitEmptyConfigurationResolver$EmptyResolvedConfiguration
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/ShortCircuitEmptyConfigurationResolver$EmptyResults
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DefaultResolutionResultBuilder$RootFactory
+instanceKlass org/gradle/api/internal/artifacts/result/AbstractDependencyResult
+instanceKlass org/gradle/api/artifacts/result/ResolvedDependencyResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DefaultDependencyResult
+instanceKlass org/gradle/api/internal/artifacts/result/DefaultResolvedComponentResult
+instanceKlass org/gradle/api/internal/artifacts/result/ResolvedComponentResultInternal
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DetachedComponentResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/CachingDependencyResultFactory
+instanceKlass org/gradle/api/artifacts/result/DependencyResult
+instanceKlass org/gradle/api/artifacts/result/ResolvedComponentResult
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/DefaultResolutionResultBuilder
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$RootFactory$1$1
+instanceKlass org/gradle/cache/internal/BinaryStore$ReadAction
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/result/StreamingResolutionResultBuilder$RootFactory$1
+instanceKlass org/gradle/api/internal/artifacts/configurations/DefaultConfiguration$ConfigurationResolvableDependencies$LenientResolutionResult
+instanceKlass com/android/build/gradle/internal/utils/GradlePluginUtils$enforceMinimumVersionsOfPlugins$1$1
+instanceKlass com/google/wireless/android/sdk/stats/GradleBuildProject$GradlePlugin$1
+instanceKlass com/android/build/gradle/internal/profile/ProfilerInitializer$ProfileShutdownListener$$Lambda$216
+instanceKlass org/gradle/invocation/DefaultGradle$2
+instanceKlass com/android/build/gradle/internal/profile/ProfilerInitializer$ProfileShutdownListener$$Lambda$215
+instanceKlass java/lang/reflect/WeakCache$LookupValue
+instanceKlass org/gradle/configuration/internal/DefaultListenerBuildOperationDecorator$BuildOperationEmittingInvocationHandler$1$1
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$NotifyProjectsEvaluatedListeners$1
+instanceKlass org/gradle/initialization/NotifyProjectsEvaluatedBuildOperationType$Details
+instanceKlass org/gradle/initialization/DefaultGradleLauncher$NotifyProjectsEvaluatedListeners
+instanceKlass org/gradle/configuration/internal/ExecuteListenerBuildOperationType$1
+instanceKlass org/gradle/configuration/internal/ExecuteListenerBuildOperationType$Result
+instanceKlass org/gradle/configuration/internal/ExecuteListenerBuildOperationType
+instanceKlass org/gradle/api/internal/artifacts/dsl/LazyPublishArtifact
+instanceKlass org/gradle/api/internal/artifacts/publish/AbstractPublishArtifact
+instanceKlass com/android/build/gradle/internal/scope/ArtifactPublishingUtil$publishArtifactToConfiguration$1$1$1
+instanceKlass org/gradle/api/internal/artifacts/configurations/DefaultVariant
+instanceKlass org/gradle/api/internal/artifacts/ConfigurationVariantInternal
+instanceKlass com/android/build/gradle/internal/scope/ArtifactPublishingUtil$publishArtifactToConfiguration$1$1
+instanceKlass org/gradle/api/artifacts/ConfigurationVariant
+instanceKlass org/gradle/api/internal/artifacts/configurations/DefaultConfigurationPublications$ConfigurationVariantFactory
+instanceKlass com/android/build/gradle/internal/scope/ArtifactPublishingUtil$publishArtifactToConfiguration$1
+instanceKlass com/android/build/gradle/internal/scope/ArtifactPublishingUtil
+instanceKlass com/android/build/gradle/internal/scope/VariantScopeImpl$$Lambda$214
+instanceKlass com/android/build/gradle/internal/api/artifact/BuildArtifactSpec$Companion
+instanceKlass com/android/build/gradle/internal/api/artifact/BuildArtifactSpec
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$213
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$212
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$211
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$210
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$209
+instanceKlass com/android/build/FilterData
+instanceKlass java/lang/invoke/SerializedLambda
+instanceKlass com/android/builder/core/VariantAttributesProvider$SerializableStringSupplier
+instanceKlass com/android/builder/core/VariantAttributesProvider$SerializableIntSupplier
+instanceKlass com/android/build/gradle/internal/ApiObjectFactory$$Lambda$208
+instanceKlass com/android/build/gradle/internal/api/BaseVariantOutputImpl
+instanceKlass com/android/build/gradle/api/ApkVariantOutput
+instanceKlass com/android/build/gradle/internal/dsl/VariantOutputFactory
+instanceKlass com/android/build/gradle/internal/api/BaseVariantImpl
+instanceKlass com/android/build/gradle/internal/ApiObjectFactory
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$207
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$206
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$205
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$204
+instanceKlass com/android/build/gradle/internal/tasks/AndroidTestTask
+instanceKlass com/android/ddmlib/Log$ILogOutput
+instanceKlass com/android/builder/testing/TestRunner
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$203
+instanceKlass com/android/build/gradle/internal/tasks/DexMergingTask$CreationAction$WhenMappings
+instanceKlass com/android/build/gradle/internal/ApplicationTaskManager$$Lambda$202
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$201
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$200
+instanceKlass org/gradle/api/reporting/ConfigurableReport
+instanceKlass org/gradle/api/reporting/Report
+instanceKlass com/android/build/gradle/internal/tasks/factory/TaskFactoryUtils$dependsOn$7
+instanceKlass com/android/build/gradle/internal/dependency/ArtifactCollectionWithExtraArtifact
+instanceKlass com/android/build/gradle/internal/tasks/ExtractApksTask$Companion
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$199
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$198
+instanceKlass com/android/build/gradle/internal/tasks/factory/TaskFactoryUtils$dependsOn$$inlined$letIfPresent$lambda$1
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$197
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$196
+instanceKlass com/android/build/gradle/internal/ApplicationTaskManager$$Lambda$195
+instanceKlass com/android/build/gradle/internal/ApplicationTaskManager$$Lambda$194
+instanceKlass com/android/build/gradle/internal/ApplicationTaskManager$$Lambda$193
+instanceKlass com/android/build/gradle/internal/scope/OutputScope$$Lambda$192
+instanceKlass com/android/builder/internal/aapt/AaptOptions
+instanceKlass com/android/build/gradle/internal/dsl/DslAdaptersKt
+instanceKlass com/android/build/gradle/internal/ApplicationTaskManager$$Lambda$191
+instanceKlass com/android/build/gradle/internal/res/Aapt2MavenUtils$getArtifactCollection$1$1
+instanceKlass com/android/build/gradle/internal/res/Aapt2MavenUtils$getArtifactCollection$1
+instanceKlass com/android/build/gradle/internal/res/Aapt2MavenUtils$getAapt2FromMaven$1
+instanceKlass org/gradle/api/internal/artifacts/dependencies/DefaultDependencyArtifact
+instanceKlass org/gradle/internal/typeconversion/MapKey
+instanceKlass com/android/build/gradle/internal/res/Aapt2Version
+instanceKlass com/android/build/gradle/internal/res/Aapt2MavenUtils$getAapt2FromMaven$config$1
+instanceKlass com/android/build/gradle/internal/res/Aapt2MavenUtils
+instanceKlass com/android/builder/internal/aapt/CloseableBlockingResourceLinker
+instanceKlass org/gradle/api/execution/TaskExecutionAdapter
+instanceKlass org/gradle/execution/taskgraph/TaskFailureCollector
+instanceKlass org/gradle/internal/graph/GraphNodeRenderer
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionPlan
+instanceKlass org/gradle/execution/taskgraph/TaskExecutionPlan
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskExecutionGraph
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker$GraphWithEmpyEdges
+instanceKlass org/gradle/api/internal/tasks/CachingTaskDependencyResolveContext$TaskGraphImpl
+instanceKlass org/gradle/internal/graph/CachingDirectedGraphWalker
+instanceKlass org/gradle/api/internal/tasks/CachingTaskDependencyResolveContext
+instanceKlass org/gradle/execution/taskgraph/DefaultTaskPlanExecutor
+instanceKlass org/gradle/api/internal/artifacts/ivyservice/resolveengine/artifact/CompositeResolvedArtifactSet$ResolvedArtifactSetVisitor
+instanceKlass org/gradle/api/internal/artifacts/transform/DefaultTransformInfoFactory
+instanceKlass org/gradle/execution/taskgraph/WorkInfo
+instanceKlass org/gradle/internal/service/scopes/GradleScopeServices$4
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$190
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$189
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$188
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$187
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransformCallable$Factory
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/internal/transforms/DexMergerTransformCallable
+instanceKlass com/android/ide/common/process/ProcessOutput
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$186
+instanceKlass java/lang/invoke/LambdaForm$DMH
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderCacheHandler
+instanceKlass com/android/build/gradle/internal/workeractions/WorkerActionServiceRegistry$RegisteredService
+instanceKlass com/android/ide/common/process/ProcessOutputHandler
+instanceKlass com/android/ide/common/blame/parser/PatternAwareOutputParser
+instanceKlass com/android/build/gradle/internal/workeractions/WorkerActionServiceRegistry$ServiceKey
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$185
+instanceKlass com/android/build/gradle/internal/transforms/DexArchiveBuilderTransformBuilder
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$184
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$183
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$182
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$181
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$180
+instanceKlass com/android/ide/common/internal/WaitableExecutor
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$179
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager$$Lambda$178
+instanceKlass com/android/build/gradle/internal/incremental/InstantRunVerifier$ClassBytesProvider
+instanceKlass java/util/stream/FindOps$$Lambda$177
+instanceKlass java/util/stream/FindOps$FindSink
+instanceKlass java/util/stream/FindOps$$Lambda$176
+instanceKlass java/util/stream/FindOps$FindOp
+instanceKlass java/util/stream/FindOps
+instanceKlass com/android/builder/core/BootClasspathBuilder$$Lambda$175
+instanceKlass com/android/builder/core/BootClasspathBuilder
+instanceKlass com/android/build/gradle/internal/InstantRunTaskManager
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$174
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$173
+instanceKlass com/android/build/gradle/tasks/ProcessAnnotationsTask$Companion
+instanceKlass org/gradle/language/base/internal/compile/Compiler
+instanceKlass org/gradle/api/internal/tasks/compile/JavaCompileSpec
+instanceKlass org/gradle/api/internal/tasks/compile/JvmLanguageCompileSpec
+instanceKlass org/gradle/language/base/internal/compile/CompileSpec
+instanceKlass com/android/build/api/transform/Context
+instanceKlass com/android/build/gradle/internal/pipeline/IntermediateStream$Builder
+instanceKlass com/android/build/api/transform/TransformOutputProvider
+instanceKlass com/google/common/collect/AbstractIterator$1
+instanceKlass com/google/common/base/Ascii
+instanceKlass java/util/stream/SortedOps
+instanceKlass com/android/build/gradle/internal/pipeline/TransformManager$$Lambda$172
+instanceKlass com/android/build/gradle/internal/transforms/MergeJavaResourcesTransform$$Lambda$171
+instanceKlass com/android/builder/merge/IncrementalFileMergerInput
+instanceKlass com/android/builder/merge/IncrementalFileMergerOutput
+instanceKlass com/android/builder/merge/OpenableCloseable
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$170
+instanceKlass com/android/build/gradle/tasks/ExternalNativeBuildTaskUtils$ExternalNativeBuildProjectPathResolution
+instanceKlass com/android/build/gradle/tasks/ExternalNativeBuildTaskUtils
+instanceKlass com/android/builder/internal/aapt/BlockingResourceLinker
+instanceKlass com/android/build/gradle/internal/TaskManager$$Lambda$169
+instanceKlass com/android/ide/common/resources/SingleFileProcessor
+instanceKlass com/android/build/gradle/internal/scope/BuildArtifactsHolder$BuildableProducer
+instanceKlass com/android/utils/FileUtils$$Lambda$168
+instanceKlass com/android/build/gradle/internal/scope/BuildArtifactsHolder$FinalBuildableArtifact
+instanceKlass com/android/build/gradle/internal/scope/BuildArtifactsHolder$getFinalArtifactFiles$1
+instanceKlass com/android/build/gradle/tasks/TaskInjectionPointsCache$InjectionPoints
+instanceKlass com/android/build/gradle/tasks/IDProvider
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaArrayAnnotationArgument
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaEnumValueAnnotationArgument
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaAnnotationArgument$Factory
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaAnnotationArgument
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaAnnotationArgument
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaAnnotationDescriptor
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/annotations/AnnotationDescriptor
+instanceKlass kotlin/jvm/internal/ArrayIterator
+instanceKlass kotlin/jvm/internal/ArrayIteratorKt
+instanceKlass kotlin/sequences/FlatteningSequence$iterator$1
+instanceKlass kotlin/sequences/FilteringSequence$iterator$1
+instanceKlass kotlin/sequences/FilteringSequence
+instanceKlass kotlin/sequences/FlatteningSequence
+instanceKlass kotlin/collections/ArraysKt___ArraysKt$asSequence$$inlined$Sequence$1
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaAnnotationMapper
+instanceKlass kotlin/collections/CollectionsKt___CollectionsKt$asSequence$$inlined$Sequence$1
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaAnnotation
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaAnnotationOwnerKt
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaAnnotationOwner$DefaultImpls
+instanceKlass kotlin/reflect/jvm/internal/UtilKt
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotations
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaAnnotationsKt
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaModifierListOwner$DefaultImpls
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaTypeParameterResolver
+instanceKlass kotlin/reflect/jvm/internal/components/RuntimeSourceElementFactory$RuntimeSourceElement
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/sources/JavaSourceElement
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaClassDescriptor$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/descriptors/JavaClassDescriptor
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaModifierListOwner
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaAnnotationOwner
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaClass
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaTypeParameterListOwner
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaModifierListOwner
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaClassifier
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaNamedElement
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageScope$KotlinClassLookupResult
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectAnnotationSource
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectClassStructure
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/KotlinJvmBinaryClass$AnnotationArgumentVisitor
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/header/ReadKotlinClassHeaderAnnotationVisitor
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/KotlinJvmBinaryClass$AnnotationVisitor
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectKotlinClass$Factory
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectKotlinClass
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/KotlinJvmBinaryClass
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectJavaClassFinderKt
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectKotlinClassFinderKt
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/LazyJavaPackageScope$FindClassRequest
+instanceKlass kotlin/reflect/jvm/internal/impl/incremental/UtilsKt
+instanceKlass kotlin/reflect/jvm/internal/impl/resolve/scopes/ChainedMemberScope$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/resolve/scopes/ChainedMemberScope
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/descriptors/JvmPackageScope
+instanceKlass kotlin/UnsafeLazyImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/ContextKt
+instanceKlass kotlin/reflect/jvm/internal/impl/storage/LockBasedStorageManager$KeyWithComputation
+instanceKlass kotlin/reflect/jvm/internal/structure/ReflectJavaElement
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaPackage
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaAnnotationOwner
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/structure/JavaElement
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/impl/CompositePackageFragmentProvider
+instanceKlass kotlin/reflect/jvm/internal/impl/resolve/scopes/AbstractScopeAdapter
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/PackageViewDescriptor
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/FindClassInModuleKt
+instanceKlass kotlin/collections/ArrayAsCollection
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/JvmProtoBuf$JvmFieldSignatureOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/JvmProtoBuf$JvmPropertySignatureOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/JvmProtoBuf$JvmMethodSignatureOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/JvmProtoBuf
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/deserialization/JvmProtoBufUtil
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/JavaFlexibleTypeDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/DeserializationComponentsForJava
+instanceKlass kotlin/reflect/jvm/internal/impl/resolve/jvm/JvmClassName
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/JvmAnnotationNames
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/AbstractBinaryClassAnnotationAndConstantLoader$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/AbstractBinaryClassAnnotationAndConstantLoader
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/JavaClassDataFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/resolve/jvm/JavaDescriptorResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/types/JavaTypeResolver
+instanceKlass kotlin/InitializedLazyImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/TypeParameterResolver$EMPTY
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/TypeParameterResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaResolverContext
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/LazyJavaPackageFragmentProvider
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/JavaResolverSettings$Default
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/JavaResolverSettings
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/JavaClassesTracker$Default
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/JavaClassesTracker
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/typeEnhancement/SignatureEnhancement
+instanceKlass kotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes$ClassLookup
+instanceKlass kotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/builtins/ReflectionTypes
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/SupertypeLoopChecker$EMPTY
+instanceKlass kotlin/reflect/jvm/internal/components/RuntimeSourceElementFactory
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/sources/JavaSourceElementFactory
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/SamConversionResolver$Empty
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/SamConversionResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaPropertyInitializerEvaluator$DoNothing
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaPropertyInitializerEvaluator
+instanceKlass kotlin/reflect/jvm/internal/components/RuntimeErrorReporter
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/SignaturePropagator$1
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/SignaturePropagator
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectJavaClassFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/JavaClassFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/JavaResolverComponents
+instanceKlass kotlin/reflect/jvm/internal/impl/utils/ReportLevel$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/utils/Jsr305State$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/utils/Jsr305State
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/AnnotationTypeQualifierResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaResolverCache$1
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/components/JavaResolverCache
+instanceKlass kotlin/reflect/jvm/internal/components/RuntimePackagePartProvider
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/PackagePartProvider
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/SingleModuleClassResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/load/java/lazy/ModuleClassResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/jvm/deserialization/JvmMetadataVersion$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/header/KotlinClassHeader$Kind$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/DeserializedDescriptorResolver$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/DeserializedDescriptorResolver
+instanceKlass kotlin/reflect/jvm/internal/components/ReflectKotlinClassFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/load/kotlin/KotlinClassFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDependenciesImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/impl/ModuleDependencies
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationConfiguration$DefaultImpls
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/SmallSortedMap$EntryIterator
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/GeneratedMessageLite$ExtendableMessage$ExtensionWriter
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/MemberDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/TypeDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationContext
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/VersionRequirementTable$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/VersionRequirementTable
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/TypeTable
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ClassDeserializer$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ClassDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ContractDeserializer$Companion$DEFAULT$1
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ContractDeserializer$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ContractDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/FlexibleTypeDeserializer$ThrowException
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/FlexibleTypeDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/incremental/components/LookupTracker$DO_NOTHING
+instanceKlass kotlin/reflect/jvm/internal/impl/incremental/components/LookupTracker
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ErrorReporter$1
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ErrorReporter
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/LocalClassifierTypeSettings$Default
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/LocalClassifierTypeSettings
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationDeserializer
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationAndConstantLoaderImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/AnnotationAndConstantLoader
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializedClassDataFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationConfiguration$Default
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationConfiguration
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/DeserializationComponents
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/NotFoundClasses
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProviderImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/descriptors/PackageFragmentProvider
+instanceKlass kotlin/Triple
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/NameResolverImpl$WhenMappings
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/Utf8
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/NameResolverUtilKt
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ProtoBasedClassDataFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/serialization/deserialization/ClassDataFinder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/NameResolverImpl
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/NameResolver
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Type$Argument$Projection$1
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Type$ArgumentOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Annotation$ArgumentOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/SmallSortedMap$Entry
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/FieldSet$1
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/AbstractMessageLite$Builder
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/GeneratedMessageLite$1
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$QualifiedNameTable$QualifiedName$Kind$1
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$QualifiedNameTable$QualifiedNameOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/WireFormat
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/CodedOutputStream
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/CodedInputStream
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$QualifiedNameTableOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/LazyStringList
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/ProtocolStringList
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$StringTableOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$PackageFragmentOrBuilder
+instanceKlass kotlin/collections/IntIterator
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/builtins/BuiltInsBinaryVersion$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/BinaryVersion$Companion
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/deserialization/BinaryVersion
+instanceKlass kotlin/reflect/jvm/internal/impl/builtins/BuiltInsPackageFragment
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/ExtensionRegistryLite$ObjectIntPair
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$TypeParameter$Variance$1
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$TypeParameterOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$EnumEntryOrBuilder
+instanceKlass kotlin/reflect/jvm/internal/impl/metadata/ProtoBuf$Annotation$Argument$Value$Type$1
+instanceKlass kotlin/reflect/jvm/internal/impl/protobuf/Internal$EnumLiteMap
