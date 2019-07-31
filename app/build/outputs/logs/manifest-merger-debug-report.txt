@@ -1,256 +1,256 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f1f2aaaf44ac9f79c2a5068afc7e2cec\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ba45334f3c8927cd365c5a6985ad001b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\e77079d9fe813810fc426090fd32fd87\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8667917a468d9ffeba1af59d6ad042c3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:2:1-16:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c1b711fa0a792e28dd16ad25d323c295\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ce8d34c0dcbf99939a51a1388c9b174a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\26666f952538dd1003c120711da98b40\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\b9a81518a8c1f146473db169bbdaf5aa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\76b0aaeca05ed9554352d6758f28d433\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\55dcd8ffd62b65eeb1769e85d052794b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ac17917aee83f0c62005001d153f5070\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\fc01b4353db759df7c01dd65eb81fff1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1f0f47055693082c57fa7bfe7949d7fd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\df340d986886377c4a038702d54268ed\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\de363aa4a2bd8789b631b940abc1855a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f6d345d097e08d7769569b4651092929\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\bf2cfb57b33907a3675a332263e902ec\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\124ade477b81b373df2075a5a4d7f31d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\90bd201895abc48b00dcde63c88daef6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\d9b8687a720a9c722af1c7703eea5351\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\45982892bfbc5e86a7d241ad04b3679e\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\41c191037cfc4faec4b357604d3c3b7f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\def9f299538ec4e4812c084ed78bd493\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\21caa77e3bfe3dafe670d8e80697ef4c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1273db3e6eac099041eff7f75da2b1a3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\16ff4b6c1f1d5a114134ae77110655df\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\3d9fd8b113a49603476ec5ff899b7003\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\da11da62936161a344820ae8daa47e65\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\46bf1438e99762722e54a3f7e0db3a33\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\7147a39a1243869bfd5aad2df678ac0a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\a0f09e73b8f4a975d1663a9bd1a7aa01\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c2c80d64903c9656bff15c2eaea95c25\AndroidManifest.xml:17:1-22:12
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:2:1-16:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [com.android.support:design:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e9b7114ca0475cd2a6b77e173888c60e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/44280621081143cd2cae29f93d21a1e3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/chameleon/.gradle/caches/transforms-2/files-2.1/da48affbd3864443afa6e5af53c48fcf/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4d3b9ea9135dc26033d11ce13515b3b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f6749f43d043779ea0d4b1318d3ae50d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c5b5af3aff15f49738723fac5176d94c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/087bd474f32de9581f3d2b27a60ebfc8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ff118040d13295d322c52f160c6ed5f1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/df32759966c2fb3d6efdabb3105720ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ac9734c067adee5808103aeb95260f59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/86a275ca64db89e55dcadfbe70c36c7e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/0e83c632f391a15753a1c555448b984d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9fe47403770e2c7f83e509579e9d47e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f2764e30908721a28e3d82f14095b963/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/72aa07d02beb219c5b2af658450fbba5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/71096c0740b17a2aefaf5893187c9e13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/fcc53c9b5ef27497a9d7d34fcccefa94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c0db3e96ac3add0e7c74b825b01184d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ca913501c5e24b11783f983fccec9d91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4c6592ec8811bc0fdceeb3b85ff31f54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/65c4e3902ac9864f1b8a7bfc1f190b6e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb11040b68b134a21e5a25b75f496161/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/7f918c811f6be19a4a304dfd089313e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/56a9bf16161801fba8d1ce927dedd17b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/925ff91e144a8792381eac5aad72df7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/40338c402304384922863fdd9e7af75d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e7eeab9ef0bb5e70a816752b3b749a66/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb510f358627acd73c39a47d9ebe6776/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/a99cf53e87902cd9fb161f262b36c088/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/401015bcc765cc66a65466469a1a5d2b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e467f00cb85788389eff5f56246799b5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9e72256992e8accc71eb0ab5ee7a21bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:2:1-16:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:1-59:12
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:11:5-67
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:11:5-67
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:11:5-67
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:11:5-67
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:8:5-57:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f1f2aaaf44ac9f79c2a5068afc7e2cec\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f1f2aaaf44ac9f79c2a5068afc7e2cec\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\e77079d9fe813810fc426090fd32fd87\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\e77079d9fe813810fc426090fd32fd87\AndroidManifest.xml:9:5-20
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:13:5-14:19
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:13:5-14:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\45982892bfbc5e86a7d241ad04b3679e\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\45982892bfbc5e86a7d241ad04b3679e\AndroidManifest.xml:22:5-23:19
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:13:5-14:19
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:13:5-14:19
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:8:5-57:19
+MERGED from [com.android.support:design:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e9b7114ca0475cd2a6b77e173888c60e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e9b7114ca0475cd2a6b77e173888c60e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/chameleon/.gradle/caches/transforms-2/files-2.1/da48affbd3864443afa6e5af53c48fcf/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/chameleon/.gradle/caches/transforms-2/files-2.1/da48affbd3864443afa6e5af53c48fcf/AndroidManifest.xml:9:5-20
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:13:5-14:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/65c4e3902ac9864f1b8a7bfc1f190b6e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/65c4e3902ac9864f1b8a7bfc1f190b6e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:13:5-14:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:11:9-36
 	android:roundIcon
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.led_control.RainbowActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:parentActivityName
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:18:13-66
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:18:13-66
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:17:13-59
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:17:13-59
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:16:13-44
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:16:13-44
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:20:13-22:83
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:20:13-22:83
 	android:value
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:22:17-80
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:22:17-80
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:21:17-63
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:21:17-63
 activity#com.example.led_control.Activity2
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:24:9-27:59
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:24:9-27:59
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:26:13-53
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:26:13-53
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:25:13-38
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:25:13-38
 activity#com.example.led_control.Activities.RainbowActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:28:9-64
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:28:9-64
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:28:19-61
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:28:19-61
 activity#com.example.led_control.Activities.GradientActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:29:9-37:20
 	android:parentActivityName
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:32:13-66
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:31:13-37
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:30:13-56
 activity#com.example.led_control.Activities.SettingsActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:38:9-42:59
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:38:9-42:59
 	android:parentActivityName
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:41:13-66
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:41:13-66
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:40:13-60
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:40:13-60
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:39:13-56
 activity#com.example.led_control.Activities.SolidColorActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:43:9-47:59
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:43:9-47:59
 	android:parentActivityName
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:46:13-66
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:46:13-66
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:45:13-38
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:45:13-38
 	android:theme
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:47:13-56
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:47:13-56
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:44:13-58
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:44:13-58
 activity#com.example.led_control.Activities.MainActivity
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:48:9-56:20
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:48:9-56:20
 	android:label
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:50:13-40
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:50:13-40
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:49:13-52
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:49:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:51:13-55:29
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:51:13-55:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:54:17-77
+ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:54:17-77
 	android:name
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml:54:27-74
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml:54:27-74
 uses-sdk
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f1f2aaaf44ac9f79c2a5068afc7e2cec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f1f2aaaf44ac9f79c2a5068afc7e2cec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ba45334f3c8927cd365c5a6985ad001b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ba45334f3c8927cd365c5a6985ad001b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\e77079d9fe813810fc426090fd32fd87\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\e77079d9fe813810fc426090fd32fd87\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8667917a468d9ffeba1af59d6ad042c3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8667917a468d9ffeba1af59d6ad042c3\AndroidManifest.xml:20:5-44
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.koushikdutta.ion:ion:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\2311630e883918f587bf2d8db4ff90f5\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c1b711fa0a792e28dd16ad25d323c295\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c1b711fa0a792e28dd16ad25d323c295\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ce8d34c0dcbf99939a51a1388c9b174a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ce8d34c0dcbf99939a51a1388c9b174a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\26666f952538dd1003c120711da98b40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\26666f952538dd1003c120711da98b40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\b9a81518a8c1f146473db169bbdaf5aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\b9a81518a8c1f146473db169bbdaf5aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\76b0aaeca05ed9554352d6758f28d433\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\76b0aaeca05ed9554352d6758f28d433\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\55dcd8ffd62b65eeb1769e85d052794b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\55dcd8ffd62b65eeb1769e85d052794b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ac17917aee83f0c62005001d153f5070\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ac17917aee83f0c62005001d153f5070\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\fc01b4353db759df7c01dd65eb81fff1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\fc01b4353db759df7c01dd65eb81fff1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1f0f47055693082c57fa7bfe7949d7fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1f0f47055693082c57fa7bfe7949d7fd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\df340d986886377c4a038702d54268ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\df340d986886377c4a038702d54268ed\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\de363aa4a2bd8789b631b940abc1855a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\de363aa4a2bd8789b631b940abc1855a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f6d345d097e08d7769569b4651092929\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\f6d345d097e08d7769569b4651092929\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\bf2cfb57b33907a3675a332263e902ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\bf2cfb57b33907a3675a332263e902ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\124ade477b81b373df2075a5a4d7f31d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\124ade477b81b373df2075a5a4d7f31d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\90bd201895abc48b00dcde63c88daef6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\90bd201895abc48b00dcde63c88daef6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\d9b8687a720a9c722af1c7703eea5351\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\d9b8687a720a9c722af1c7703eea5351\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\8b4fc5c17ebf40fdd74b21c16b8c1410\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\45982892bfbc5e86a7d241ad04b3679e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\45982892bfbc5e86a7d241ad04b3679e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\41c191037cfc4faec4b357604d3c3b7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\41c191037cfc4faec4b357604d3c3b7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\def9f299538ec4e4812c084ed78bd493\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\def9f299538ec4e4812c084ed78bd493\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\21caa77e3bfe3dafe670d8e80697ef4c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\21caa77e3bfe3dafe670d8e80697ef4c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1273db3e6eac099041eff7f75da2b1a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\1273db3e6eac099041eff7f75da2b1a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\16ff4b6c1f1d5a114134ae77110655df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\16ff4b6c1f1d5a114134ae77110655df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\3d9fd8b113a49603476ec5ff899b7003\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\3d9fd8b113a49603476ec5ff899b7003\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\da11da62936161a344820ae8daa47e65\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\da11da62936161a344820ae8daa47e65\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\46bf1438e99762722e54a3f7e0db3a33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\46bf1438e99762722e54a3f7e0db3a33\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\7147a39a1243869bfd5aad2df678ac0a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\7147a39a1243869bfd5aad2df678ac0a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\a0f09e73b8f4a975d1663a9bd1a7aa01\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\a0f09e73b8f4a975d1663a9bd1a7aa01\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c2c80d64903c9656bff15c2eaea95c25\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\c2c80d64903c9656bff15c2eaea95c25\AndroidManifest.xml:20:5-44
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] C:\Users\Chameleon\.gradle\caches\transforms-2\files-2.1\ea6ab22ede17e78fbf9fb0b415d0b00a\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e9b7114ca0475cd2a6b77e173888c60e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e9b7114ca0475cd2a6b77e173888c60e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/44280621081143cd2cae29f93d21a1e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/44280621081143cd2cae29f93d21a1e3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/chameleon/.gradle/caches/transforms-2/files-2.1/da48affbd3864443afa6e5af53c48fcf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/chameleon/.gradle/caches/transforms-2/files-2.1/da48affbd3864443afa6e5af53c48fcf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4d3b9ea9135dc26033d11ce13515b3b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4d3b9ea9135dc26033d11ce13515b3b2/AndroidManifest.xml:20:5-44
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/d882b6cf233ed078b8f6f28d9139c651/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f6749f43d043779ea0d4b1318d3ae50d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f6749f43d043779ea0d4b1318d3ae50d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c5b5af3aff15f49738723fac5176d94c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c5b5af3aff15f49738723fac5176d94c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/087bd474f32de9581f3d2b27a60ebfc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/087bd474f32de9581f3d2b27a60ebfc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ff118040d13295d322c52f160c6ed5f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ff118040d13295d322c52f160c6ed5f1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/df32759966c2fb3d6efdabb3105720ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/df32759966c2fb3d6efdabb3105720ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ac9734c067adee5808103aeb95260f59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ac9734c067adee5808103aeb95260f59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/86a275ca64db89e55dcadfbe70c36c7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/86a275ca64db89e55dcadfbe70c36c7e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/0e83c632f391a15753a1c555448b984d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/0e83c632f391a15753a1c555448b984d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9fe47403770e2c7f83e509579e9d47e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9fe47403770e2c7f83e509579e9d47e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f2764e30908721a28e3d82f14095b963/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/f2764e30908721a28e3d82f14095b963/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/72aa07d02beb219c5b2af658450fbba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/72aa07d02beb219c5b2af658450fbba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/71096c0740b17a2aefaf5893187c9e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/71096c0740b17a2aefaf5893187c9e13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/fcc53c9b5ef27497a9d7d34fcccefa94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/fcc53c9b5ef27497a9d7d34fcccefa94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c0db3e96ac3add0e7c74b825b01184d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/c0db3e96ac3add0e7c74b825b01184d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ca913501c5e24b11783f983fccec9d91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/ca913501c5e24b11783f983fccec9d91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4c6592ec8811bc0fdceeb3b85ff31f54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/4c6592ec8811bc0fdceeb3b85ff31f54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/3c6cd7d33f77d88eb9152adea3add0d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/65c4e3902ac9864f1b8a7bfc1f190b6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/65c4e3902ac9864f1b8a7bfc1f190b6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb11040b68b134a21e5a25b75f496161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb11040b68b134a21e5a25b75f496161/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/7f918c811f6be19a4a304dfd089313e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/7f918c811f6be19a4a304dfd089313e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/56a9bf16161801fba8d1ce927dedd17b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/56a9bf16161801fba8d1ce927dedd17b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/925ff91e144a8792381eac5aad72df7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/925ff91e144a8792381eac5aad72df7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/40338c402304384922863fdd9e7af75d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/40338c402304384922863fdd9e7af75d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e7eeab9ef0bb5e70a816752b3b749a66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e7eeab9ef0bb5e70a816752b3b749a66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb510f358627acd73c39a47d9ebe6776/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/bb510f358627acd73c39a47d9ebe6776/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/a99cf53e87902cd9fb161f262b36c088/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/chameleon/.gradle/caches/transforms-2/files-2.1/a99cf53e87902cd9fb161f262b36c088/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/401015bcc765cc66a65466469a1a5d2b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/401015bcc765cc66a65466469a1a5d2b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e467f00cb85788389eff5f56246799b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/e467f00cb85788389eff5f56246799b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9e72256992e8accc71eb0ab5ee7a21bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/9e72256992e8accc71eb0ab5ee7a21bc/AndroidManifest.xml:20:5-44
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /home/chameleon/.gradle/caches/transforms-2/files-2.1/479e2353a0686450ed2cad640d66776d/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Chameleon\AndroidStudioProjects\LED_Control\app\src\main\AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		ADDED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
+		INJECTED from /home/chameleon/AndroidStudioProjects/IoT_Control/Android-IoT-control-for-ESP-8266/app/src/main/AndroidManifest.xml
